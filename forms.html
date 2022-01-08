@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+<p>
+    <label for="username">Enter the username:</label>
+    <input id="username"  type="text" placeholder="username" name="username">
+</p>
+<p>
+    <label for="password">Enter the password:</label>
+    <input id="password" type="password" placeholder="password" name="password">
+</p>
+<p>
+    <label for="color">Enter your favorite color:</label>
+    <input id="color" type="color" name="color">
+</p>
+<p>
+    <label for="age">Enter your age:</label>
+    <input id="age" type="number" placeholder="age" name="age">
+</p>
+<button>Submit</button>
+<!--<button type="button">PLEASE DO NOT SUBMIT THIS FORM>-->
+    <input type="submit" value="Click me!">
+</form>
+<hr>
+<h1>Search</h1>
+<h2>Search reddit</h2>
+<form action="https://www.reddit.com/search">
+<input type="text" name="q">
+<button>Search Reddit</button>
+</form>
+<h2>Search Google</h2>
+<form action="https://www.google.com/search">
+<input type="text" name="q">
+<button>Search Google</button>
+</form>
+<h2>Search YouTube</h2>
+<form action="https://www.youtube.com/results?search">
+<input type="text" name="search_query">
+<button>Search Youtube</button>
+<hr>
+<h1>More inputs!</h1>
+<form action="/birds">
+    <h2>Here are some story books you can choose!</h2>
+<input type="checkbox" name="sgree_tos" id="agree">
+<label for="agree">THE SECRET OF THE SNOW</label>
+<input type="checkbox" name="sgree_tos" id="agree">
+<label for="agree">THE SECRET OF THE FARIES</label>
+<p>
+    <h2>Select your favorite food!</h2>
+    <label for="Pizza">Pizza</label>
+    <input type="radio" name="food" id="Pizza" value="Pizza">
+    <label for="Ice">Ice-cream</label>
+    <input type="radio" name="food" id="Ice" value="Ice">
+    <label for="NOOD">Noodles</label>
+    <input type="radio" name="food" id="NOOD" value="NOOD">
+</p>
+<p>
+    <label for="meal">Select your favorite animal</label>
+    <select name="meal" id="meal">
+        <option value="Dog">Dog</option>
+        <option value="Hamester">Hamester</option>
+        <option value="Cat">Cat</option>
+    </select>
+</p>
+<p> 
+    <input type="range">
+</p>
+<button>Submit</button>
+
+</form>
+
+</form>
+</body>
+</html>
